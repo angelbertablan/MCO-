@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/script.js" defer></script>
+    <title>Feature Page</title>
+</head>
+<body>
+    <header>
+        <h1>Feature Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="feature.html">Feature Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="images/logo.jpg" alt="Feature Logo" class="feature-logo">
+        <h2>Explore Our Featured Products</h2>
+    </section>
+
+    <section class="products">
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/coke.jpg" alt="Coke">
+                <h3>Coke</h3>
+                <p>Pantulak.</p>
+                <p>Price: $45.00</p>
+                <button class="add-to-cart" data-name="Coke" data-price="45">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/canton.jpg" alt="Pancit Canton">
+                <h3>Pancit Canton</h3>
+                <p>Ambag mo sa thesis.</p>
+                <p>Price: $15.00</p>
+                <button class="add-to-cart" data-name="Pancit Canton" data-price="15">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/sardines.jpg" alt="Sardines">
+                <h3>Sardines</h3>
+                <p>Dangerous fish.</p>
+                <p>Price: $28.00</p>
+                <button class="add-to-cart" data-name="Sardines" data-price="28">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/sisters.jpg" alt="Wings">
+                <h3>Wings</h3>
+                <p>Use for red days of girls.</p>
+                <p>Price: $6.00</p>
+                <button class="add-to-cart" data-name="Wings" data-price="6">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <aside>
+        <h3>Cart</h3>
+        <ul id="cart-list"></ul>
+        <p>Total Price: $<span id="total-price">0.00</span></p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Angelbert James. All rights reserved.</p>
+    </footer>
+</body>
+</html>
